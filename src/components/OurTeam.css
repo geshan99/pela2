@@ -1,0 +1,36 @@
+.teamimage {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.mid-text {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+h2 {
+	margin: 0.8em !important;
+}
+
+@media only screen and (min-width: 768px) {
+	.last-photo-row {
+		margin-top: 4em;
+	}
+	h2 {
+		margin-top: 2em !important;
+		margin-bottom: 2em !important;
+		font-size: 4em !important;
+		font-weight: 900 !important;
+	}
+	.mid-text {
+		padding-left: 10em;
+		padding-right: 10em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.teamimage {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+}

@@ -1,0 +1,11 @@
+.whereToGoBackGroundImage {
+  background-color: black;
+  /* position: relative; */
+  /* height: 240vh; */
+  background-size: cover;
+  /* overflow: hidden; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* src\assets\Where to go\Locations\Sigiriya\bg photo.jpg */

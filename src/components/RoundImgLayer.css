@@ -1,0 +1,114 @@
+.layer-1 {
+  width: 18vw !important;
+  height: 18vw;
+  background: white;
+  position: absolute;
+  margin: 2vw;
+  left: 10%;
+  border-radius: 35% 0 35% 0;
+  -webkit-border-radius: 35% 0 35% 0;
+  -moz-border-radius: 35% 0 35% 0;
+  -ms-border-radius: 35% 0 35% 0;
+  -o-border-radius: 35% 0 35% 0;
+}
+
+.layer-2 {
+  width: 18vw !important;
+  height: 18vw;
+  background: white;
+  position: absolute;
+  margin: 2vw;
+  left: 30%;
+  border-radius: 35% 0 35% 0;
+  -webkit-border-radius: 35% 0 35% 0;
+  -moz-border-radius: 35% 0 35% 0;
+  -ms-border-radius: 35% 0 35% 0;
+  -o-border-radius: 35% 0 35% 0;
+}
+
+.header-content-1 {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  margin-left: 0;
+  padding: 0 3vw 0.5vw 0 !important;
+  width: 88% !important;
+  align-items: center;
+  /* padding-bottom: 4% !important; */
+}
+
+.header-content-2 {
+  position: absolute;
+  display: flex;
+  top: 0;
+  margin-left: 0;
+  padding: 2vw 1vw 0 2vw !important;
+  width: 88% !important;
+  /* height: 40%; */
+  align-items: center;
+  /* padding-bottom: 4% !important; */
+}
+
+.containerRoundImg {
+  display: block;
+  width: 20vw;
+  height: 20vw;
+  margin: 4vw;
+  padding: 0 40px 40px 0;
+  position: relative;
+}
+
+.roundAvatar-1 {
+  width: 15vw !important;
+  height: 15vw;
+  border-radius: 100%;
+  top: -20%;
+  left: 40%;
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #01ff48;
+  z-index: 1;
+}
+
+.roundAvatar-2 {
+  width: 15vw !important;
+  height: 15vw;
+  border-radius: 100%;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #01ff48;
+  z-index: 1;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+@media only screen and (max-width: 630px) {
+  .layer-1 {
+    display: none;
+  }
+  .roundAvatar-1 {
+    left: 20%;
+  }
+  .layer-2 {
+    display: none;
+  }
+  .roundAvatar-2 {
+    left: 20%;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+	.teamimage {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+} */

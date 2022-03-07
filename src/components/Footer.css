@@ -1,0 +1,9 @@
+.footer-container > .col {
+  padding: 5vw;
+}
+
+@media only screen and (max-width: 630px) {
+  .footer-container > .col {
+    padding: 2vw;
+  }
+}

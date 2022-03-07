@@ -1,0 +1,37 @@
+:global(div.carousel-indicators > button:nth-child(n)) {
+  border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+  height: 15px;
+  position: relative;
+  bottom: 20px;
+  margin: 1.5px;
+}
+
+:global(.mainPageCarousel
+    > div.carousel-inner
+    > div.active.carousel-item
+    > img) {
+  object-fit: cover;
+  height: 100vh;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+}
+
+:global(.mainPageCarousel > a.carousel-control-next) {
+  display: none;
+}
+
+:global(.mainPageCarousel > a.carousel-control-prev) {
+  display: none;
+}
+
+:global(.carousel-inner) {
+  height: 40vw;
+}
+
+/* .carouselComp {
+  height: 100px;
+} */

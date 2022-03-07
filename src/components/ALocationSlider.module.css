@@ -1,0 +1,48 @@
+/* .carouselComp {
+    height: 100px;
+  } */
+
+.aLocationPageSlider {
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* top: 0; */
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+}
+
+:global(.aLocationPageSlider > div.carousel-inner) {
+  /* position: relative !important; */
+  /* z-index: -1; */
+  border-radius: 0 0px 80px 80px;
+  -webkit-border-radius: 0 0px 80px 80px;
+  -moz-border-radius: 0 0px 80px 80px;
+  -ms-border-radius: 0 0px 80px 80px;
+  -o-border-radius: 0 0px 80px 80px;
+}
+
+:global(.aLocationPageSlider
+    > div.carousel-inner
+    > div.active.carousel-item
+    > img) {
+  object-fit: cover;
+  height: 85vh;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+}
+
+/* :global(.aLocationPageSlider > a.carousel-control-next > span) {
+  font-size: 40px;
+} */
+
+/* .aLocationPageSlider {
+  :global {
+    div.carousel-inner {
+      border-radius: 2000px;
+      -webkit-border-radius: 2000px;
+      -moz-border-radius: 2000px;
+      -ms-border-radius: 2000px;
+      -o-border-radius: 2000px;
+    }
+  }
+} */
